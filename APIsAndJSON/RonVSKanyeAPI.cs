@@ -21,7 +21,7 @@ namespace APIsAndJSON
             var ronObject = JArray.Parse(ronResponse); // Parse response into JArray
             
             
-            Console.WriteLine($"With barely conatined disdain, Ron muttered, \"{ronObject[0]}\""); // [0] Removes brackets when response is displayed
+            Console.WriteLine($"Ron muttered, \"{ronObject[0]}\""); // [0] Removes brackets when response is displayed
         }
         #endregion
 
@@ -38,7 +38,6 @@ namespace APIsAndJSON
             
             Console.WriteLine($"Kanya inanely stated, \"{kayneObject["quote"]}\""); // Value grabs the "joke" text 
         }
-
         #endregion
     }
 }
